@@ -11,3 +11,6 @@ for key in lista_zakupow:
         print(f"Idę do Warzywniak, kupuję tu następujące rzeczy: {lista_zakupow['Warzywniak']}")
 lista_zakupow_upper = {key.upper(): [ele.upper() for ele in lista_zakupow[key] ] for key in lista_zakupow }
 print(f"oto słownik ze sklepami i towarami pisanymi wielką literą: {lista_zakupow_upper}")
+for value in lista_zakupow.values():
+    print(f"W sumie muszę kupić {len(value)} produktów.")
+#nie potrafię wyciągnąć ilości produktów do kupienia w jedną linię ( czyli żeby było ich 6)
