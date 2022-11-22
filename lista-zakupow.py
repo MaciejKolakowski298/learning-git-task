@@ -14,3 +14,5 @@ print(f"oto słownik ze sklepami i towarami pisanymi wielką literą: {lista_zak
 for value in lista_zakupow.values():
     print(f"W sumie muszę kupić {len(value)} produktów.")
 #nie potrafię wyciągnąć ilości produktów do kupienia w jedną linię ( czyli żeby było ich 6)
+lista_zakupow.update({"Piekarnia":['Bagietka','Chleb','Pączek','Bułki']})
+print(lista_zakupow)
