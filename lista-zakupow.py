@@ -16,3 +16,5 @@ for value in lista_zakupow.values():
 #nie potrafię wyciągnąć ilości produktów do kupienia w jedną linię ( czyli żeby było ich 6)
 lista_zakupow.update({"Piekarnia":['Bagietka','Chleb','Pączek','Bułki']})
 print(lista_zakupow)
+lista_zakupow.update({"Warzywniak":['Sałata','Marchew','Seler','Rukola']})
+print(lista_zakupow)
